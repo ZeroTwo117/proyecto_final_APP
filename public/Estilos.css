@@ -1,0 +1,168 @@
+.navbar{
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .5);
+    min-height: 100px;
+}
+body {
+  background: linear-gradient(to right, #6072c4, #0516fac0);
+  margin-top: 0px;
+}
+
+ul.dropdown-menu{
+box-shadow: 4px 9px 25px -6px rgba(77,77,77,0.61);
+}
+
+/* Color y movimiento barra */
+ul.navbar-nav .nav-item:after {
+    content: '';
+    display: block;
+    height: 3px;
+    width: 0;
+    transition: width .5s ease, dropdown-item .5s ease;
+}
+.navbar-nav .nav-item:hover:after {
+    width: 100%;
+    background:#2b59d6;
+}
+
+/* contenedores */
+.patata2{
+    background-color: #f1f1f1;
+}
+
+/* Slider */
+html {
+    scroll-behavior: smooth;
+  }
+  .carousel-caption {
+    top: 33%;
+}
+.carousel-item {
+    position: relative;
+}
+.carousel-item img {
+    z-index: 2;
+}
+.btn {
+	padding: 14px 26px;
+	font-weight: 700;
+	font-size: 13px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+}
+.btn-danger {
+	background-color: #1c18d6;
+	border-color: #2a4de7;
+}
+.background-overlay {
+    position: absolute;
+    z-index: 3;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+.carousel-control-next, .carousel-control-prev{
+z-index: 4;	
+}
+@media(max-width:1180px) {
+  .carousel-caption h5 {
+    font-size: 2.5rem !important;
+	margin-bottom:15px !important;
+  }
+  .carousel-caption p {
+    font-size: 1.5rem !important;
+	margin-bottom:20px !important;
+  }
+  .carousel-caption {
+    top:25%;
+    }
+}
+@media(max-width:980px) {
+	.carousel-caption {
+    top: 20%;
+    }
+  .carousel-caption h5 {
+    font-size: 1.5rem !important;
+  }
+   .carousel-caption p {
+    font-size: 1rem !important;
+  }
+  .carousel-caption .btn {
+    display:none;
+  }
+}
+/* Ayuda y comentarios */
+.jumbotron {
+    background: #2b59d6;
+    color: rgb(255, 255, 255);
+    
+    
+    }
+    .jumbotron-sm { padding-top: 24px;
+    padding-bottom: 24px;
+}
+    .h1 small {
+    font-size: 24px;
+    }
+/* Comercializadora y transportes */
+    .bd-placeholder-img {
+      font-size: 1.125rem;
+      text-anchor: middle;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+    }
+
+    @media (min-width: 768px) {
+      .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+      }
+    }
+    /* Shadow */
+   section{
+text-shadow: black 0.1em 0.1em 0.2em;
+   }
+/* Inicio sesiom */
+.login-card-light {
+    background: linear-gradient(145deg, #eee, #fff);
+}
+
+.patata3{
+ 
+  margin-right: auto;
+  margin-left: auto;
+}
+.register-card-light {
+  background: linear-gradient(145deg, #eee, #fff);
+}
+.patata4{
+  margin-top: 340px;
+  background-color: rgb(60, 18, 247);
+
+}
+
+.patata5{
+  background-color: rgba(37, 23, 245, 0.884);
+}
+
+/* Recorte de Imagenes */
+.objetfitcover > img {
+	height: 250px;
+	object-fit: cover;
+}
+
+/* Superponer div */
+#one{
+  position: relative;
+}
+#two{
+  position: absolute;
+  display: flex;
+	justify-content: flex-end;
+}
+
+/* Zoom imagenes de productos */
+
+
